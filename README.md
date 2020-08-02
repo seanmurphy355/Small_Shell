@@ -6,7 +6,7 @@
 
  ## Overview Of Project
  - This Program was written while strictly using the C programing language.
- - The smallsh file works like a bash shell enabling users 
+ - The smallsh file works like a bash shell.
  - Allows for the redirection of standard input and standard output and it will support both foreground and background processes  (controllable by the command line and by      receiving signals).
  
  
@@ -15,7 +15,7 @@
  - General syntax for usage:  command [arg1 arg2 ...] [< input_file] [> output_file] [&] …where items in square brackets are optional.
  - Supports up to 2048 characters, and a maximum of 512 arguments.
  - Any line that starts with # is ignored and read as a comment.
- - The command line supports the following commands: ls, status, exit, mkdir, cd, $$(which expands the $$ command into the process ID of the shell).
+ - The command line supports the following generalcommands: ls, status, exit, mkdir, cd, $$(which expands the $$ command into the process ID of the shell).....and more.
  - Supports Background and Foreground, signals ex: CTRL-Z command from the keyboard will send a SIGSTP signal to the parent shell process and all children at the same time.
  
  ## Built with:
