@@ -1,16 +1,24 @@
-- This is the final version of smallsh.c assignment 2 for cs 344.
-- Commands used to compile and run this project.
+
+### Commands used to compile and run project.
 - Compile by doing the following:
   - gcc smallsh.c -o smallsh
-  - Using the script p2testscript
-  - Run the following : chmod +x ./p2testscript
+  - ./ smallsh
 
-Run commands:
-./smallsh ( Note -->) will just run the program like normal inorder to test ls,exit,status
-./p2testscript > mytestresults 2>&1 (Note -->) can be used to get a mytestresults file
-./p2testcript (Note -->) can be used just to see normal results.
-
-Commands alone:
-./smallsh
-./p2testscript > mytestresults 2>&1
-./p2testcript
+ ## Overview Of Project
+ - This Program was written while strictly using the C programing language.
+ - The smallsh file works like a bash shell enabling users 
+ - Allows for the redirection of standard input and standard output and it will support both foreground and background processes  (controllable by the command line and by      receiving signals).
+ 
+ 
+ ## Specifications 
+ - The colon symbol (:) is used to prompt the user for each commmand line.(fflush is called immediately after each and every time you output text).
+ - General syntax for usage:  command [arg1 arg2 ...] [< input_file] [> output_file] [&] …where items in square brackets are optional.
+ - Supports up to 2048 characters, and a maximum of 512 arguments.
+ - Any line that starts with # is ignored and read as a comment.
+ - The command line supports the following commands: ls, status, exit, mkdir, cd, $$(which expands the $$ command into the process ID of the shell).
+ - Supports Background and Foreground, signals ex: CTRL-Z command from the keyboard will send a SIGSTP signal to the parent shell process and all children at the same time.
+ 
+ ## Built with:
+ * [Microsoft Visual Studio Code](https://code.visualstudio.com/) - IDE
+* [C](https://en.wikipedia.org/wiki/C) - Standard Language 
+ * [Linux](https://www.linux.org/) - Operating system
