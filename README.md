@@ -23,10 +23,10 @@
 * [C](https://en.wikipedia.org/wiki/C) - Standard Language 
  * [Linux](https://www.linux.org/) - Operating system
 
-# Preview of the Dungeon Crawler game 
-About: Each of the games in this repository were built only to run on in the terminal. The goal of these projects were to improve my skills in object oriented programing.  
+# Preview of the Small Shell
+- Simple examples of the commands Small Shell allows.
 
-![Game](https://user-images.githubusercontent.com/51139158/74704553-a234d500-51c5-11ea-8da5-0e01b5d93408.gif)
+
 
 ### Contributor
 
